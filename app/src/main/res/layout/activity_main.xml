@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TableLayout
+            android:id="@+id/tableLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:outlineProvider="bounds">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"
+                >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="245dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/kolo" />
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="165dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="Koło" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"
+                >
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="245dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/prostokat" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="165dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="Prostokąt" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="245dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/rownoleglobok" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="165dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="Równoległobok" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="245dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/stozek" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="165dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="Stożek" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="245dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/walec" />
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="165dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="Walec" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="98dp"
+                android:background="@drawable/border">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="245dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/prostopadloscian" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="165dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="Prostopadłościan" />
+
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
