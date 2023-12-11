@@ -24,6 +24,27 @@
         <activity
             android:name=".Kolo">
         </activity>
+        <activity
+            android:name=".Prostokat">
+        </activity>
+        <activity
+            android:name=".Rownoleglobok">
+        </activity>
+        <activity
+            android:name=".Trojkat">
+        </activity>
+        <activity
+            android:name=".Stozek">
+        </activity>
+        <activity
+            android:name=".Walec">
+        </activity>
+        <activity
+            android:name=".Prostopadloscian">
+        </activity>
+        <activity
+            android:name=".Kula">
+        </activity>
     </application>
 
 </manifest>

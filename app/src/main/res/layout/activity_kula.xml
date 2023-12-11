@@ -18,13 +18,13 @@
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/kolo" />
+                android:src="@drawable/kula" />
 
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Pole koła"
+                android:text="Pole kuli"
                 android:textAlignment="center"
                 android:textColor="#9C27B0"
                 android:textSize="96sp"
@@ -34,7 +34,7 @@
                 android:id="@+id/imageView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/pole_kola" />
+                android:src="@drawable/pole_kuli" />
 
             <EditText
                 android:id="@+id/editTextNumber21"

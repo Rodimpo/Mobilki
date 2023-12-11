@@ -113,10 +113,36 @@
                         android:id="@+id/imageView4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/stozek" />
+                        android:src="@drawable/trojkat" />
 
                     <Button
                         android:id="@+id/button4"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center_vertical"
+                        android:text="Trójkąt" />
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/stozek" />
+
+                    <Button
+                        android:id="@+id/button5"
                         android:layout_width="match_parent"
                         android:layout_height="70dp"
                         android:layout_gravity="center_vertical"
@@ -136,13 +162,13 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView5"
+                        android:id="@+id/imageView6"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:src="@drawable/walec" />
 
                     <Button
-                        android:id="@+id/button5"
+                        android:id="@+id/button6"
                         android:layout_width="match_parent"
                         android:layout_height="70dp"
                         android:layout_gravity="center_vertical"
@@ -162,17 +188,43 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView6"
+                        android:id="@+id/imageView7"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:src="@drawable/prostopadloscian" />
 
                     <Button
-                        android:id="@+id/button6"
+                        android:id="@+id/button22"
                         android:layout_width="match_parent"
                         android:layout_height="70dp"
                         android:layout_gravity="center_vertical"
                         android:text="Prostopadłościan" />
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/kula" />
+
+                    <Button
+                        android:id="@+id/button23"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center_vertical"
+                        android:text="Kula" />
                 </LinearLayout>
 
             </TableRow>
